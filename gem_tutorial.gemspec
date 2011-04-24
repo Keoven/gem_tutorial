@@ -112,6 +112,28 @@ end
 #    /features/               # Cucumber Tests
 #    /ext/                    # non-Ruby Files
 #    /README                  # Overview of Gem
+#    /LICENSE                 # License
 #    /Rakefile                # Rake Tasks
 #    /gem_tutorial.gemspec    # Gem Specifications
 #
+#  Engine Gem Directory Structure
+#  /gem_tutorial/             # Root Folder
+#    # Engine Specific
+#    /app/                    # Application Folder
+#    /config/                 # Configuration Folder
+#    /db/                     # Database Folder
+#    /log/                    # Log Folder
+#    /script/                 # Scripts Folder
+#
+#    # Gem Specific
+#    /bin/                    # Commandline Scripts
+#    /doc/                    # Documentation
+#    /lib/                    # Ruby Files
+#    /pkg/                    # Packaged Gems
+#    /test/                   # Test::Unit Tests
+#    /spec/                   # Rspec Tests
+#    /features/               # Cucumber Tests
+#    /ext/                    # non-Ruby Files
+#    /README                  # Overview of Gem
+#    /LICENSE                 # License
+#    /Rakefile                # Rake Tasks
