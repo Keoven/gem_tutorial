@@ -1,4 +1,3 @@
-#! /usr/bin/env gem build
 # encouding: utf -8
 
 ## $: is the shorthand version of $LOAD_PATH.
@@ -77,8 +76,10 @@ end
 #  -- http://www.ruby-doc.org/docs/ProgrammingRuby/html/ext_ruby.html
 #
 #  Build this gem either by issuing:
-#  gem build gem_tutorial.gemspec
-#  chmod 755 gem_tutorial.gemspec; ./gem_tutorial.gemspec
+#  -- gem build gem_tutorial.gemspec
+#  -- chmod 755 gem_tutorial.gemspec; ./gem_tutorial.gemspec
+#  But preferrably:
+#  -- rake gem
 #
 #  Gem Hosting (http://rubygems.org/)
 #  1. Signup to at rubygems (http://rubygems.org/sign_up)
