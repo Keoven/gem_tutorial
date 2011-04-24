@@ -53,7 +53,7 @@ Gem::Specification.new do |s|
 
   ## Dependencies
   #
-  # s.add_dependency 'gem_name', '= 0.0.1'
+  s.add_dependency 'sdoc', '= 0.2.20'
   # s.add_development_dependency 'rspec'
 
   ## Messages

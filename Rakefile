@@ -5,6 +5,5 @@ require 'rake/gempackagetask'
 require 'rake/rdoctask'
 
 spec = Gem::Specification.load(Dir['*.gemspec'].first)
-gem = Rake::GemPackageTask.new(spec)
-gem.define
-
+package = Rake::GemPackageTask.new(spec)
+package.define
