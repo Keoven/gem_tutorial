@@ -1,4 +1,7 @@
 class GemTutorial::Gem < ActiveRecord::Base
+  def self.table_name_prefix
+    'gem_tutorial_'
+  end
   # This is a mini-tutorial for rdoc
   # * listitem1
   # - listitem2
