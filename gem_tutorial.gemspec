@@ -54,6 +54,7 @@ Gem::Specification.new do |s|
   ## Dependencies
   #
   s.add_dependency 'sdoc', '= 0.2.20'
+  s.add_dependency 'rails', '= 3.0.7'
   # s.add_development_dependency 'rspec'
 
   ## Messages

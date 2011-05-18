@@ -10,9 +10,9 @@ class GemTutorialGenerator < Rails::Generators::Base
 
   def self.next_migration_number(dirname)
     if ActiveRecord::Base.timestamped_migrations
-     Time.now.utc.strftime("%Y%m%d%H%M%S")
+      "%.14d" % (current_migration_number(dirname) + 1)
     else
-     "%.3d" % (current_migration_number(dirname) + 1)
+      "%.3d" % (current_migration_number(dirname) + 1)
     end
   end
 
